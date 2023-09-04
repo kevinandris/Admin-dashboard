@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+
 .home {
     
     display: grid;
@@ -10,9 +11,8 @@
     .box {
         padding: 20px;
 
-        border: 1px solid $soft-bg;
+        border: 2px solid $soft-bg;
         border-radius: 10px;
-        background-color: rgba(173, 216, 230, 0.521);
     }
 
     .box1 {
