@@ -3,6 +3,7 @@ import './navbar.scss'
 const navbar = () => {
   return (
     <div className='navbar'>
+
         <div className="logo">
           <img src="logo.svg" alt="" />
           <span>kevinadmin</span>
@@ -25,7 +26,7 @@ const navbar = () => {
 
           <img src="/settings.svg" alt="" className="icon" />
         </div>
-        
+
     </div>
   )
 }
