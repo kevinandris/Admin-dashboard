@@ -613,6 +613,7 @@ export const menu = [
         },
       ],
     },
+    
     activities: [
       {
         text: "John Doe purchased Playstation 5 Digital Edition",
@@ -640,6 +641,7 @@ export const menu = [
       },
     ],
   };
+
   export const singleProduct = {
     id: 1,
     title: "Playstation 5 Digital Edition",
@@ -694,6 +696,7 @@ export const menu = [
         },
       ],
     },
+    
     activities: [
       {
         text: "John Doe purchased Playstation 5 Digital Edition",
