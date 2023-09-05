@@ -3,7 +3,7 @@ import { GridColDef, GridValueGetterParams } from '@mui/x-data-grid'
 import './users.scss'
 import { userRows } from '../../data';
 import { useState } from 'react'
-import Add from '../../add/Add';
+import Add from '../../components/add/Add';
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 50 },
