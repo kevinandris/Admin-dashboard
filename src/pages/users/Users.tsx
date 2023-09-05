@@ -4,6 +4,7 @@ import './users.scss'
 import { userRows } from '../../data';
 import { useState } from 'react'
 import Add from '../../components/add/Add';
+import { useQuery} from '@tanstack/react-query'
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 50 },
@@ -57,6 +58,14 @@ const users = () => {
 
   const [open, setOpen] = useState(false)
 
+  // const { isLoading, data } = useQuery({ 
+  //   queryKey: ['allusers'],
+  //   queryFn: () =>
+  //     fetch('http://localhost:8800/api/users').then(
+  //       (res) => res.json(),
+  //     ),
+  // })
+
   return (
     <div className='users'>
       <div className="info">
@@ -65,7 +74,9 @@ const users = () => {
       </div>
 
       {/* data grid */}
-      <DataTable slug="users" columns={columns} rows={userRows}/>
+      {  
+        <DataTable slug="users" columns={columns} rows={userRows}/>
+      }
 
       {
         open && <Add slug='user' columns={columns} setOpen={setOpen}/>
