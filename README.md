@@ -1,7 +1,7 @@
 #   Admin-dashboard description:
     1) ReactJs + TypeScript + Vite
     2) Frontend application with professioanl design
-    3) MUI grid applied and used MUI table as well.
+    3) MUI data-grid for the table.
     4) Multiple charts used such as pie chart, line chart, and graph chart.
     5) CRUD operation included.
     6) useState Hook used from react library.
