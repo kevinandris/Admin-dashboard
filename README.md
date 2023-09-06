@@ -27,7 +27,12 @@
 #   To run the project:
     1) On Visual Studio code, type npm start
 
-
+#   Frontend dependencies installed:
+    1) Sass
+    2) react-router-dom
+    3) recharts
+    4) @mui/x-data-grid
+    5) @tanstack/react-query
 
 
 
