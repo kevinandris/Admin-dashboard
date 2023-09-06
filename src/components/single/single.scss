@@ -1,6 +1,12 @@
+@import '../../styles/responsive.scss';
+
 .single {
     display: flex;
     
+    @include xl {
+        flex-direction: column;
+        gap: 20px;
+    }
 
     .view {
         flex: 1;
@@ -45,12 +51,20 @@
             height: 0;
             border: 0.5px solid gray;
             margin: 20px 0px;
+
+            @include md {
+                display: none;
+            }
         }
 
         .chart {
             margin-top: 50px;
             width: 80%;
             height: 400px;
+
+            @include md {
+                display: none;
+            }
         }
     }
 
@@ -77,6 +91,7 @@
                     background-color: #f45b69;
                     transform: translateX(-50%);
                 }
+
                 div {
                     min-width: 480px;
                     padding: 15px;
@@ -86,6 +101,10 @@
                     }
                     time {
                         font-size: 12px;
+                    }
+
+                    @include md {
+                        min-width: 250px;
                     }
                 }
             }
