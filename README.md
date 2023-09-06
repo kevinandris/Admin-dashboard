@@ -4,6 +4,7 @@
     3) MUI grid applied and used MUI table as well.
     4) Multiple charts used such as pie chart, line chart, and graph chart.
     5) CRUD operation included.
+    6) useState Hook used from react library.
 
 #   Projects images:
     1) Homepage
