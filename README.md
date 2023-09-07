@@ -22,7 +22,9 @@
     5) Adding a new user:
 ![image](https://github.com/kevinandris/Admin-dashboard/assets/102328858/4de1e53b-0527-4009-8a51-7375c203602e)
 
-    6) responsive screen sizes: (smaller screen sizes will only have icons without its word, restructring the elements, font sizes etc. Furthemore, some icons on the navigation bar also removed)
+    6) responsive screen sizes: (smaller screen sizes will only have icons without its word, 
+       restructring the elements, font sizes etc. Furthemore, some icons on the navigation 
+       bar also removed)
 ![image](https://github.com/kevinandris/Admin-dashboard/assets/102328858/5f981f63-5a63-4c01-952b-bdb2900c5f50) ![image](https://github.com/kevinandris/Admin-dashboard/assets/102328858/9eec66f1-5fff-4d6a-9d00-35e3805dce0e)
 
 #   To run the project:
