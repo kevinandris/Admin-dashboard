@@ -28,7 +28,8 @@
 ![image](https://github.com/kevinandris/Admin-dashboard/assets/102328858/5f981f63-5a63-4c01-952b-bdb2900c5f50) ![image](https://github.com/kevinandris/Admin-dashboard/assets/102328858/9eec66f1-5fff-4d6a-9d00-35e3805dce0e)
 
 #   To run the project:
-    1) On Visual Studio code, type npm start
+    1) On VS code terminal, type npm start for (npm users) ||
+       yard add On VS code terminal (yarn users)
 
 #   Frontend dependencies installed:
     1) Sass
